@@ -94,7 +94,7 @@ public class GameOfLife {
         String[][] nextStr = new String[next.length][next[0].length];
         for (int i = 0; i < next.length; i++) {
             for (int j = 0; j < next[i].length; j++) {
-                nextStr[i][j] = next[i][j] == 0 ? " " : "■";
+                nextStr[i][j] = next[i][j] == 0 ? " " : "*";
             }
             System.out.print(Arrays.toString(nextStr[i]));
             System.out.println();
